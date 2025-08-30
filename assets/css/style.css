@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+/*CUERPO DE LA WEB*/
+
+body {
+    background-color: floralwhite;
+    color: black;
+
+}
+
+/* ENCABEZADO*/
+
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    background-color: rgb(14, 13, 13);
+    height: 70px;
+    padding: 20px;
+
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+header nav ul{
+    list-style: none;
+    display:flex;
+    column-gap: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: auto;
+    margin-left: 15px;
+}
+
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+/*main*/
+
+main {
+    margin: 20px;
+    padding: 20px;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center ;
+    margin-top: 20px;
+    text-transform: uppercase
+
+}
+
+p {
+    font-size: 25px;
+    margin: 18px;
+    text-align: center;
+}
+
+body img {
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*footer*/
+footer {
+    margin: 20px;
+    padding: 20px;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+/* Imagen */
+.imgprenda {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: grid;
+
+    margin-bottom: 15px;
+    border-radius: 50%;
+
+}
+
+/* ACERCA DE NOSOTROS*/
+
+
+.img-equipo{
+    width: auto;
+    height: 100%; /* Toma la altura del contenedor, que será igual al texto */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+.texto-acerca-de-nosotros{
+    text-align: justify;
+    font-size: 50px;
+}
+
+.nosotros{
+    display: flex;
+}
+
+/* CONTACTO FORMULARIO*/
+
+form {
+    margin-top: 20px;
+    text-align: left;
+
+
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input,
+textarea {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    }
+
+
+.btnformulario {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+
+/* Botón de comprar */
+.boton-comprar {
+    display: inline-block;
+    text-align: center;
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+    border: solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 120px;
+
+
+}
+
+
+.img-banner{
+    width: 100%;
+
+}
+
+/* Página Inicial*/
+
+.hero{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    
+}
+
+.contenedor {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.carrusel-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.carrusel-producto{
+    width: 325px;
+    border-radius: 8px;
+    margin: 20px
+
+
+}
+
+.cards img{
+    width: 100%;
+    height: auto;
+}
+
+
+.imgprenda {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: grid;
+
+    margin-bottom: 15px;
+    border-radius: 50%;
+
+}
+
+
+
+/*  CATEGORIAS */
+
+.contenedor-productos{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 columnas iguales */
+    gap: 10px; /* Espacio entre productos */
+    width: 100%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.producto {
+    display: grid;
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    vertical-align: top;
+    text-align: center;
+    border-radius: 8px;
+
+
+}
+
+.boton-comprar {
+    display: inline-block;
+    text-align: center;
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+    border: solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 120px;
+
+}
+
+.imgcategorias{
+    
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: grid;
+
+    margin-bottom: 15px;
+}
