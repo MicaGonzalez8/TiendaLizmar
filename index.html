@@ -6,84 +6,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lizmar| Moda femenina</title>
 
-<!--BOOTSTRAP-->
+    <!--BOOTSTRAP-->
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 
-<!-- CSS -->
-<link rel="stylesheet" href="assets/css/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
     <header class="contenedor">
 
-        <img class="logo" src="/assets/img/logolizmar.jpeg" alt="Logo de LIZMAR">
-
-<!--NAVEGARDOR-->
-        <nav>
-            <ul>
-                <li>
-                    <a href="#" class="active">inicio</a>
-                </li>
-                <li>
-                    <a href="pages/categorias.html">categorias</a>
-                </li>
-                <li>
-                    <a href="pages/sucursales.html">sucursales</a>
-                </li>
-                <li>
-                    <a href="pages/acercadenosotros.html">acerca de nosotros</a>
-                </li>
-                <li>
-                    <a href="pages/contacto.html">contacto</a>
-                </li>
-            </ul>
+        <!--NAVEGARDOR-->
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Lizmar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Lizmar</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active mx-lg-2" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="pages/categorias.html">Categorias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="pages/sucursales.html">sucursales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="pages/acercadenosotros.html">acerca de nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="pages/contacto.html">contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
-
     </header>
 
     <!--BANNER PRINCIPAL-->
     <section class="contenedor">
-        <div >
-            <h1>¡Bienvenidos!</h1>
-            <p class="parrafo">Gracias por visitar nuestra web, tu espacio de estilo y tendencias</p>
-        </div>
         <div class="hero">
-        <div>
-            <img src="assets/img/file.webp"alt="banner" class="img-banner">
+            <div>
+                <img src="assets/img/banner2.webp" alt="banner" class="img-banner">
+            </div>
         </div>
     </section>
-    <div>
-        <h2> Nuestros Elegidos</h2>
-    </div>
 
 
-    
-<!--CARRUSEL DE FOTOS-->
+
     <main>
+        <!--CARRUSEL DE FOTOS-->
+        <div>
+            <h1 style="font-family: 'Times New Roman', serif;"> Nuestros Elegidos</h1>
+        </div>
         <div class="carrusel-container">
             <section class="carrusel-producto">
-            <img class="imgprenda" src="assets/img/camperascarrusel.webp" alt="Prenda1">
-            <p class="parrafo">Sacos y Camperas</p>
-        </section>
-        <section class="carrusel-producto">
-            <img class="imgprenda" src="assets/img/denimcarrusel.webp" alt="Prenda2">
-            <p class="parrafo">Denim</p>
-        </section>
-        <section class="carrusel-producto">
-            <img class="imgprenda" src="assets/img/Bodyscarrusel.webp" alt="prenda3">
-            <p class="parrafo"> Bodys y Tops</p>
-        </section>
+                <img class="imgprenda" src="assets/img/sacos.webp" alt="Prenda1">
+                <p class="parrafo">Sacos</p>
+                <span class="resaltado">ver más</span>
+            </section>
+            <section class="carrusel-producto">
+                <img class="imgprenda" src="assets/img/vestidos.webp" alt="Prenda2">
+                <p class="parrafo">Vestidos</p>
+                <span class="resaltado">ver más</span>
+            </section>
+            <section class="carrusel-producto">
+                <img class="imgprenda" src="assets/img/pantalones.webp" alt="prenda3">
+                <p class="parrafo"> Pantalones</p>
+                <span class="resaltado">ver más</span>
+            </section>
         </div>
+        <section>
+            <img src="assets/img/banneractual.webp" class="img-fluid w-100" alt="Banner principal">
+        </section>
+
+
+
+        <section class="beneficios">
+            <div class="beneficio">
+                <span class="icono">🚚</span>
+                <div>
+                    <h6>ENVÍO GRATIS</h6>
+                    <p>En compras superiores a $150.000</p>
+                </div>
+            </div>
+
+            <div class="beneficio">
+                <span class="icono">💳</span>
+                <div>
+                    <h6>PAGÁ EN 6 CUOTAS SIN INTERÉS</h6>
+                    <p>En compras superiores a $150.000</p>
+                </div>
+            </div>
+
+            <div class="beneficio">
+                <span class="icono">🔄</span>
+                <div>
+                    <h6>CAMBIOS Y DEVOLUCIONES</h6>
+                    <p>Hasta 30 días después de tu compra</p>
+                </div>
+            </div>
+        </section>
     </main>
 
 
 
-    <footer class="text-center py-3 bg-dark text-white mt-5"> contacto: lizmar@gmail.com Todos los derechos reservados</footer>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <footer class="text-center py-3 bg-dark text-white mt-5"> contacto: lizmar@gmail.com Todos los derechos reservados
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
 
 </body>
 

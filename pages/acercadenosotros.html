@@ -1,105 +1,182 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lizmar| Moda femenina</title>
 
     <!--BOOTSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
 
-<!-- CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
-<div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Lizmar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-    <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Lizmar</h5>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-        <li class="nav-item">
-            <a class="nav-link active mx-lg-2" aria-current="page" href="../index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link mx-lg-2" href="categorias.html">Categorias</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link mx-lg-2" href="sucursales.html">sucursales</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link mx-lg-2" href="acercadenosotros.html">acerca de nosotros</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link mx-lg-2" href="contacto.html">contacto</a>
-        </li>
-        </ul>
-        </form>
-    </div>
-    </div>
-</div>
-</nav>
-
-    </header>
-<main>
-
-
-    <section class="nosotros mb-5">
-        <h1 class="text-center my-5"> Acerca de nosotros </h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <img src="../assets/img/aboutus.jpg"alt="equipo de trabajo" class="img-fluid">
-                </div>
-                <div class="col-12 col-md-6">
-                    <p class="fs-3">En Lizmar, creemos que la moda es más que un conjunto de prendas; es una declaración de quién eres, cómo te sientes y cómo te ves ante el mundo. Inspirados por la elegancia atemporal de los sastreros más emblemáticos y el poder de un buen par de tacones...</p>
-            <p class="fs-3">Desde los cortes impecables hasta los tejidos de la más alta calidad, cada prenda está diseñada con el cuidado y la atención al detalle que caracteriza a la moda de lujo.</p>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Lizmar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Lizmar</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="categorias.html">Categorias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="sucursales.html">sucursales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active mx-lg-2" href="acercadenosotros.html">acerca de nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="contacto.html">contacto</a>
+                            </li>
+                        </ul>
+                        </form>
+                    </div>
                 </div>
             </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="text-center my-4">
+            <div>
+                <h1 style="font-family: 'Times New Roman', serif;">Acerca de nosotros</h1>
+            </div>
+        </section>
+        <section class="about-us" style="padding: 50px 0; max-width: 1200px; margin: 0 auto;">
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 40px;">
+
+                <!-- Imagen principal-->
+                <div style="flex: 1 1 300px; position: relative; max-width: 300px;">
+                    <img src="../assets/img/aboutus.jpg" alt="Audrey Blake"
+                        style="width: 100%; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+                </div>
+
+                <!-- Texto -->
+                <div class="text-block" style="flex: 2 1 500px; min-width: 300px;">
+                    <p style="line-height: 1.8; color:black; margin-bottom: 15px;">
+                        En Lizmar, creemos que la moda es más que un conjunto de prendas; es una declaración de quién
+                        eres, cómo te sientes y cómo te ves ante el mundo. Inspirados por la elegancia atemporal y el
+                        poder de un buen par de tacones.
+                    </p>
+                    <p style="line-height: 1.8; color:black; margin-bottom: 15px;">
+                        Cada prenda está diseñada con cuidado y atención al detalle, desde los cortes impecables hasta
+                        los tejidos de la más alta calidad, ofreciendo lujo y estilo en cada detalle.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="container">
+                <div class="text-columns">
+                    <!-- Visión -->
+                    <div class="text-block">
+                        <h3>Nuestra Visión</h3>
+                        <p>
+                            Ser una marca de referencia en ropa femenina, reconocida por la innovación en diseño, la
+                            cercanía con nuestras clientas y el compromiso con la calidad. En Lizmar soñamos con vestir
+                            a
+                            mujeres de todas partes, creando una comunidad que se identifique con nuestra esencia:
+                            elegancia
+                            sencilla y auténtica.
+                        </p>
+                    </div>
+
+                    <!-- Misión -->
+                    <div class="text-block">
+                        <h3>Nuestra Misión</h3>
+                        <p>
+                            En Lizmar trabajamos cada día para ofrecer a las mujeres moda que combine estilo, comodidad
+                            y calidad.
+                            Buscamos que cada prenda refleje personalidad y confianza, brindando una experiencia de
+                            compra cálida
+                            y accesible, donde nuestras clientas se sientan únicas y acompañadas en cada etapa de su
+                            vida.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<section class="carousel">
+    <h2 class="carousel-title">NUESTROS ASESORES</h2>
+    <div class="carousel-track">
+        <!-- Card 1 -->
+        <div class="card">
+            <div class="card-top">
+                <img src="../assets/img/cardstest.jpg" alt="asesoramartina">
+            </div>
+            <div class="card-bottom">
+                <h3>Martina</h3>
+                <p>The lorem text the section contain contains header having open and close functionality.</p>
+                <button>Contactate</button>
+            </div>
         </div>
-    </section>
-    <section class="container mt-5 pt-2">
-        <div class="card-group">
-            <div class="card">
-HEAD
-    <img src="../assets/img/fotogra.jpg" class="img-thumbnail" alt="cards1">
 
-    <div class="card-body">
-        <h5 class="text-center"> Descubre a nuestro equipo</h5>
+        <!-- Card 2 -->
+        <div class="card">
+            <div class="card-top">
+                <img src="../assets/img/testimonio.jpg" alt="asesormatias">
+            </div>
+            <div class="card-bottom">
+                <h3>Matias</h3>
+                <p>The lorem text the section contain contains header having open and close functionality.</p>
+                <button>Contactate</button>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <div class="card-top">
+                <img src="../assets/img/Headshot.jpg" alt="asesorasofia">
+            </div>
+            <div class="card-bottom">
+                <h3>Sofía</h3>
+                <p>The lorem text the section contain contains header having open and close functionality.</p>
+                <button>Contactate</button>
+            </div>
+        </div>
     </div>
-</div>
-<div class="card">
-    <img src="../assets/img/descarga (2).jpg" class="img-thumbnail" alt="cards2">
-    <div class="card-body">
-            <h5 class="text-center"> Conoce nuestros servicios</h5>
-    </div>
-</div>
-<div class="card">
-    <img src="../assets/img/Fashionista.jpg" class="img-thumbnail" alt="cards3">
-    <div class="card-body">
-        <h5 class="text-center">Volver al inicio</h5>
-    </div>
-</div>
-</div>
 </section>
-    
 
+    </main>
 
-</main>
-
-    <footer class="text-center py-3 bg-dark text-white mt-5"> contacto: lizmar@gmail.com Todos los derechos reservados</footer>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <footer class="text-center py-3 bg-dark text-white mt-5"> contacto: lizmar@gmail.com Todos los derechos reservados
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
