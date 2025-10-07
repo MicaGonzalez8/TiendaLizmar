@@ -1,0 +1,97 @@
+/* Tablet: hasta 991px */
+@media (max-width: 991px) {
+    .carrusel-container {
+        gap: 30px;
+        /* menos espacio */
+        justify-content: center;
+    }
+
+    .imgprenda {
+        height: 300px;
+    }
+}
+
+/* Móvil: hasta 480px */
+@media (max-width: 480px) {
+    .carrusel-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .imgprenda {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .parrafo,
+    .resaltado {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .img-banner {
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+/* Media Queries para pantallas muy pequeñas */
+@media (max-width: 600px) {
+    .carousel-title {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        flex: 1 1 90%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .card-top {
+        height: 180px; /* imagen un poco más pequeña en móviles */
+    }
+
+    .card-bottom h3 {
+        font-size: 1.1rem;
+    }
+
+    .card-bottom p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Para pantallas móviles */
+@media (max-width: 767px) {
+
+    h1,
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .bg-light.p-4.rounded.shadow-sm {
+        padding: 20px 10px;
+    }
+
+    .ratio {
+        height: 300px;
+    }
+}
+
+/* Responsive: en pantallas chicas que ocupen más ancho */
+
+@media (max-width: 600px) {
+    .imgprenda {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+

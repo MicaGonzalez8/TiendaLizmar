@@ -1,0 +1,96 @@
+@use'../base/variables';
+
+/* Contenedor del carrusel */
+.carousel {
+    font-family: variables.$font-alt;
+    padding: 50px 20px;
+    background-color: variables.$color-light;
+    text-align: center;
+}
+
+.carousel-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+/* Track del carrusel */
+.carousel-track {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Tarjetas */
+.card {
+    background-color: variables.$color-light;
+    border-radius: 15px;
+    flex: 1 1 300px;
+    max-width: 350px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen de tarjeta */
+.card-top {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+}
+
+.card-top img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    transition: transform 0.5s;
+}
+
+.card:hover .card-top img {
+    transform: scale(1.1);
+}
+
+
+/* Contenido inferior */
+.card-bottom {
+    padding: 20px;
+}
+
+.card-bottom h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-bottom p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: variables.$color-grey;
+}
+
+.card-bottom button {
+    margin-top: 15px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: variables.$color-grey;
+    color:variables.$color-light;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.card-bottom button:hover {
+    background-color: variables.$color-grey;
+    transform: scale(1.05);
+}
+

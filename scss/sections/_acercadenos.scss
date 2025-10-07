@@ -1,0 +1,43 @@
+@use'../base/variables';
+
+/*ACERCA DE NOSOTROS*/
+
+.about-section {
+    padding: 60px 20px;
+    background-color: variables.$color-light;
+}
+
+.text-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.text-block {
+    flex: 1 1 300px;
+    max-width: 500px;
+}
+
+.text-block h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color:variables.$color-grey;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.text-block p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: variables.$color-grey;
+    text-align: justify;
+}
+
+
+.nosotros {
+    text-align: justify;
+    line-height: 2em;
+}
+

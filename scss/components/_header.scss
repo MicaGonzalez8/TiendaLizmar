@@ -1,0 +1,40 @@
+@use '../base/variables';
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    background-color:variables.$color-dark;
+    height: 70px;
+    padding: 0;
+
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    column-gap: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: auto;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: variables.$color-bg;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}

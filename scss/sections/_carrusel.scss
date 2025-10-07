@@ -1,0 +1,41 @@
+@use'../base/variables';
+
+.carrusel-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+
+.carrusel-producto {
+    text-align: center;
+}
+
+
+
+.imgprenda {
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.parrafo {
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    color: variables.$color-grey;
+    text-align: center;
+    font-family: variables.$font-alt;
+}
+
+.resaltado {
+    text-decoration: underline;
+}

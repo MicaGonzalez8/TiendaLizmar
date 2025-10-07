@@ -1,0 +1,36 @@
+@use'../base/variables';
+
+.beneficios {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+    background: variables.$color-light;
+    flex-wrap: wrap;
+
+}
+
+.beneficio {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 300px;
+    margin: 10px;
+    text-align: left;
+}
+
+.icono {
+    font-size: 40px;
+}
+
+.beneficio h6 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 14px;
+}
+
+.beneficio p {
+    margin: 0;
+    font-size: 13px;
+    color:variables.$color-grey;
+}
